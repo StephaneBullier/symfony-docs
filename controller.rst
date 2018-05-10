@@ -420,7 +420,7 @@ To get the session, add an argument and type-hint it with
         $session->set('foo', 'bar');
 
         // gets the attribute set by another controller in another request
-        $foobar = $session->get('foobar');
+        $foobar = $session->get('foo');
 
         // uses a default value if the attribute doesn't exist
         $filters = $session->get('filters', array());
