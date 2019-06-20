@@ -93,7 +93,7 @@ The Base Controller Class & Services
 
 To aid development, Symfony comes with an optional base controller class called
 :class:`Symfony\\Bundle\\FrameworkBundle\\Controller\\AbstractController`.
-It can be extended to gain access to `helper methods`_.
+It can be extended to gain access to  `helper methods`_.
 
 Add the ``use`` statement atop your controller class and then modify
 ``LuckyController`` to extend it:
